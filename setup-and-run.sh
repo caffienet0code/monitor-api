@@ -10,9 +10,9 @@
 set -e  # Exit on error
 
 # Configuration
-REPO_URL=""  # Add your git repository URL here if using git
-PROJECT_DIR="blocker/backend"
-BACKEND_DIR="backend"
+REPO_URL="https://github.com/caffienet0code/monitor-api"  # Add your git repository URL here if using git
+PROJECT_DIR=""
+BACKEND_DIR=""
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -62,7 +62,7 @@ if [ ! -f "main.py" ] && [ ! -f "requirements.txt" ]; then
         echo "  2. Edit this script and set REPO_URL to your git repository"
         echo ""
         echo "Example:"
-        echo "  REPO_URL=\"https://github.com/username/repo.git\""
+        echo "  REPO_URL=\"https://github.com/caffienet0code/monitor-api\""
         exit 1
     fi
 
